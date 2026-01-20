@@ -11,4 +11,5 @@ meanCO2_25 <- mean(co2_data$smoothed[co2_data$year == 2025])
 print(meanCO2_25)
 
 # approx vorindustirelle CO2
-meanCO2_25 - 280 
+meanCO2_25 - 280 # (IPCC, 2013)
+
